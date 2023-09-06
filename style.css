@@ -1,0 +1,191 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+}
+header{
+    background: #1a6bb7;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    max-width: 1400px;
+    min-height: 100vh;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.ft-fam-Haeti{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ft-100{
+    font-weight: 100;
+}
+.ft-300{
+    font-weight: 300;
+}
+.bg-blue{
+    background:#1a6bb7 ;
+}
+.text-blue{
+    color: #1a6bb7;
+}
+.text-red{
+    color: red;
+}
+.text-yellow{
+    color: yellow;
+}
+.sz-clamp-2{
+    font-size: clamp(1.5rem,2vw,2.5rem);
+}
+.sz-clamp-3{
+    font-size: clamp(2rem,3vw,3rem);
+}
+.text-black{
+    color: black;
+}
+.bd-2{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.hero--flex_container{
+    margin: 10px;
+}
+.will--suprise{
+    text-align: center;
+}
+.hero--grid{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+.flex--section{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.will--contain_images-text{
+    display: flex;
+    gap: 1rem;
+}
+.contain--images_down_text{
+  flex: 1;
+  padding: 20px;
+}
+.contain--images_down_text img{
+    width: 80%;
+}
+.ft-fam-trebuchet{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pd-10{
+    padding: 10px;
+}
+.mr-10{
+    margin: 10px;
+}
+.bd-up-bot{
+    margin: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.contain--text-buttons{
+    flex:1;
+    color: black;
+}
+.card--container{
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.round-img{
+    border-radius: 50%;
+}
+.card img{
+    width: 80%;
+}
+.banner{
+    margin-top: 20px;
+    width: 100vw;
+    min-height: 20vh;
+    background: linear-gradient(rgb(84, 239, 84),rgb(16, 177, 16));
+    display: grid;
+    place-items: center;
+}
+.medic--sec{
+  flex:1;
+  text-align: center;
+  margin-left: 10px;
+}
+.medic--sec div img{
+    width: 70%;
+}
+.medic--sec .med{
+    width: 100%;
+    background: blue;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer{
+    background: #005784;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dont--wait{
+    padding: 20px;
+    font-size: clamp(2rem,3.5vw,4rem);
+    text-align: center;
+    color: white;
+}
+.regular--price h2,h1{
+   color: white;
+}
+.regular--price h2{
+    font-weight: 200;
+    font-size: clamp(1rem,3vw,3rem) ;
+    text-align: center;
+}
+.regular--price h1{
+    font-weight: 600;
+    font-size: clamp(1.6rem,4vw,3.5rem);
+    text-align: center;
+}
+.regular--price button{
+    padding: 10px;
+    background: yellow;
+    color: rgb(56, 55, 55);
+    font-weight: 600;
+    font-size: clamp(1.6rem,3vw,3rem) ;
+    margin: 20px;
+    margin-top: 30px;
+}
